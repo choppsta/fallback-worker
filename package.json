@@ -1,0 +1,20 @@
+{
+  "friendlyName": "Fallback Worker",
+  "name": "fallback-worker",
+  "description": "Shared worker implementation that falls back to a normal worker if not available",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "Choppsta",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/choppsta/fallback-worker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/choppsta/fallback-worker/issues"
+  },
+  "homepage": "https://github.com/choppsta/fallback-worker",
+  "main": "./src/index.js",
+  "dependencies": {
+    "eventemitter3": "^3.1.0"
+  }
+}
